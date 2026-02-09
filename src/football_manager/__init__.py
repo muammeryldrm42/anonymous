@@ -1,0 +1,1 @@
+"""Football manager prototype package."""

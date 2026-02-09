@@ -1,0 +1,13 @@
+[project]
+name = "football-manager-prototype"
+version = "0.1.0"
+description = "Prototype football manager game scaffold."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+football-manager = "football_manager.cli:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
